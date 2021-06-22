@@ -38,16 +38,31 @@ body main #banner{
 footer{
     background: #2F7DBA;
 }
+footer .img-footer{
+   width: 250px;
+    margin-top: 40px;
+}
 footer .footer-content{
-    padding: 200px 100px;
     width: 1200px;
     display: table;
     margin: 0 auto;
+    height: 500px;
 }
-footer .footer-content .footer-div-content{
+footer .footer-content .footer-div{
+    margin-top: 150px;
+    margin-bottom: 15px;
     width: 300px;
     float: left;
     color: white;
+    vertical-align: middle;
+}
+footer div a {
+    color: white;
+    text-decoration: none;
+}
+footer .footer-content .footer-div-content{
+    text-align: center;
+    margin: 0px 0px 20px 20px;
 }
 footer .responsavel-tec{
     margin: 0px;
