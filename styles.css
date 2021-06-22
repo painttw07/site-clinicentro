@@ -3,7 +3,7 @@
 }
 header .top-texto{
     background: #08938a;
-    color: white;
+    color: #ffffff;
     text-align: center;
     width: 100%;
     padding: 20px 0;
@@ -59,7 +59,7 @@ body main .slider-bg .slider-content h2{
     margin-top: 60px;
 }
 body main .slider-bg .slider-content .catalogo{
-    background: white;
+    background: #ffffff;
     height: 500px;
     width: 800px;
     border-radius: 10px;
@@ -99,7 +99,7 @@ body main .slider-bg .slider-content .catalogo-items .texto-item-value .text-g{
 body main .slider-bg .slider-content .catalogo-items button{
     margin: 20px 0px;
     border-radius: 10px;
-    color: white;
+    color: #ffffff;
     background: #2F7DBA;
     width: 230px;
     height: 40px;
@@ -126,17 +126,31 @@ body main .slider-bg .btn-agenda{
     text-align: center;
     font-weight: bold;
     font-size: 16px;
-    color: white;
+    color: #ffffff;
     background: #28A58A;
     border-radius: 8px;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     width: 500px;
     height: 60px;
     margin: 20px 450px;
 
 }
+body main .page-home {
+    width: 1200px;
+    margin: 0 auto;
+    display: table;
+    height: 800px;
+    background: #ffffff;
+}
+body main .page-home .page-content {
+    margin: 0px 300px;
 
 
+
+}
+body main .page-home .page-content img {
+    float: left;
+}
 
 
 
@@ -161,11 +175,11 @@ footer .footer-content .footer-div{
     margin-bottom: 15px;
     width: 300px;
     float: left;
-    color: white;
+    color: #ffffff;
     vertical-align: middle;
 }
 footer div a {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 footer .footer-content .footer-div-content{
@@ -175,7 +189,7 @@ footer .footer-content .footer-div-content{
 footer .responsavel-tec{
     margin: 0px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     padding: 20px 100px;
     background: #155e97;
 }
