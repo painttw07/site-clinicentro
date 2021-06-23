@@ -228,6 +228,89 @@ body main .page-home .page-content .page-items .section-info-mapa .section-info-
 body main .page-home .page-items .section-info-mapa{
     margin-top: 100px;
 }
+body main .servicos-home{
+    background: url("./img/home3.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 800px;
+}
+body main .servicos-home .servicos-content{
+    width: 1200px;
+    margin: 0 auto;
+    display: table;
+
+}
+body main .servicos-home .servicos-content .servicos-title{
+    color: #ffffff;
+    text-align: center;
+}
+body main .servicos-home h2{
+    font-size: 34px;
+    font-weight: 800;
+}
+body main .servicos-home .servicos-content .servicos-title-description{
+    font-size: 20px;
+    font-weight: lighter;
+}
+body main .servicos-home .servicos-content .catalogo-servicos{
+    width: 1200px;
+    display: table;
+    margin-top: 25px;
+}
+body main .servicos-home .servicos-content .catalogo-servicos .servicos-description{
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    width: 260px;
+    padding: 10px 20px;
+    float: left;
+}
+body main .servicos-home .servicos-content .catalogo-servicos .subtitle-column {
+    font-size: 18px;
+    font-weight: 800;
+}
+body main .servicos-home .servicos-content .servicos-subtitle{
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 50px 0px;
+}
+body main .servicos-home .servicos-content .catalogo-img{
+    width: 1200px;
+    display: table;
+    margin: 20px 0px 0px 20px;
+}
+
+body main .servicos-home .servicos-content .catalogo-img .img-home{
+    height: auto;
+    width: 360px;
+    float: left;
+    margin:0px 10px;
+    border: 5px solid #ffffff;
+}
+body main .servicos-home .servicos-content .btn-config{
+    width: 1200px;
+    display: table;
+    margin: 0 auto;
+}
+body main .servicos-home .servicos-content .btn-config .btn-conhecer{
+    border-radius: 100px;
+    color:#024fa1;
+    background:#ffffff;
+    border: none;
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    margin: 20px 0px 0px 550px;
+    cursor: pointer;
+}
+
+
+
+
 
 
 
