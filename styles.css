@@ -71,6 +71,7 @@ body main .slider-bg .slider-content .catalogo-items{
     width: 395px;
     text-align: center;
     float: left;
+
 }
 body main .slider-bg .slider-content .barrinha{
     margin: 30px 0px;
@@ -133,23 +134,99 @@ body main .slider-bg .btn-agenda{
     width: 500px;
     height: 60px;
     margin: 20px 450px;
-
 }
 body main .page-home {
+    height: auto;
+}
+body main .page-home .page-content{
     width: 1200px;
     margin: 0 auto;
     display: table;
-    height: 800px;
     background: #ffffff;
 }
-body main .page-home .page-content {
-    margin: 0px 300px;
 
-
+body main .page-home .page-content .page-items {
+    width: 590px;
+    color: #ffffff;
+    float: left;
 
 }
-body main .page-home .page-content img {
+body main .page-home .page-content .page-items .section-info{
+    display: table;
+}
+body main .page-home .page-content .page-items .section-info .img-section-info{
     float: left;
+    width: 50px;
+    height: auto;
+    margin: 13px 5px 30px 0px;
+}
+body main .page-home .page-content .page-items .section-info .section-info-text{
+    float: left;
+    width: 450px;
+}
+body main .page-home .page-items .img-bg {
+    margin-top: 50px;
+    height: 600px;
+
+}
+body main .page-home .page-content .page-items .texto-subtitle{
+    color: #2F7DBA;
+    font-weight: 800;
+    margin: 5px;
+    font-size: 18px;
+}
+body main .page-home .page-content .page-items .texto-description{
+    color: #5f5f5f;
+    font-weight: 400;
+    margin: 5px;
+}
+body main .page-home .page-content .page-items .texto-description-sub{
+    color: #5f5f5f;
+    font-weight: 800;
+    margin: 20px;
+    text-align: center;
+}
+
+body main .page-home .page-content .page-items .texto-title {
+    color: #2F7DBA;
+    font-weight: 800;
+    font-size: 36px;
+    margin: 60px 0px 20px 10px;
+}
+body main .page-home .page-items button{
+    background:#2F7DBA;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    width: 500px;
+    height: 70px;
+    margin: 0px 50px 10px 50px;
+    transition: linear 0.2s;
+}
+body main .page-home .page-items button:hover{
+    background: #28A58A;
+}
+body main .page-home .page-items .img-button{
+    height: 35px;
+    width: 40px;
+    margin-right: 8px;
+}
+body main .page-home .page-content .page-items .section-info-mapa .img-section-info{
+    float: left;
+    width: 50px;
+    height: auto;
+    margin: 10px 5px 50px 10px;
+}
+body main .page-home .page-content .page-items .section-info-mapa .section-info-text{
+    float: left;
+    margin-top: 10px;
+    width: 450px;
+}
+body main .page-home .page-items .section-info-mapa{
+    margin-top: 100px;
 }
 
 
