@@ -267,6 +267,15 @@ body main .servicos-home .servicos-content .catalogo-servicos .servicos-descript
     padding: 10px 20px;
     float: left;
 }
+body main .servicos-home .servicos-content .catalogo-servicos a{
+    color: white;
+    text-decoration: none;
+}
+
+body main .servicos-home .servicos-content .catalogo-servicos .text-bold{
+    font-weight: bold;
+
+}
 body main .servicos-home .servicos-content .catalogo-servicos .subtitle-column {
     font-size: 18px;
     font-weight: 800;
@@ -307,7 +316,6 @@ body main .servicos-home .servicos-content .btn-config .btn-conhecer{
     margin: 20px 0px 0px 550px;
     cursor: pointer;
 }
-
 
 
 
