@@ -343,35 +343,28 @@ body main .convenios-container .convenios-content .accordion{
     height: 50px;
     background: transparent;
     border-radius: 2px;
-    border:none;
     text-align: left;
     cursor: pointer;
     border: 1px solid #D3D3D3;
     padding: 18px;
     width: 100%;
-    outline: none;
     transition: 0.4s;
-}
-
-body main .convenios-container .convenios-content .button-text{
-    margin-left: 10px;
     font-size: 16px;
     font-weight: lighter;
     color:#373f45;
 }
-
-body main .convenios-container .convenios-content .convenio-panel {
-    border: 1px solid #D3D3D3;
+.active, .accordion:hover {
+    background: #ffffff;
+}
+body main .convenios-container .convenios-content .convenio-panel{
+    color:#373f45;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: lighter;
     display: none;
     overflow: hidden;
 }
-body main .convenios-container .convenios-content .convenio-panel .convenio-texto{
-    color:#373f45;
-    margin-left: 10px;
-    font-size: 16px;
-    font-weight: lighter;
-}
-.convenio-links {
+body main .convenios-container .convenios-content .convenio-panel .convenio-links {
     text-decoration: none;
     color: #007bff;
 }
