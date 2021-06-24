@@ -144,7 +144,6 @@ body main .page-home .page-content{
     display: table;
     background: #ffffff;
 }
-
 body main .page-home .page-content .page-items {
     width: 590px;
     color: #ffffff;
@@ -316,14 +315,96 @@ body main .servicos-home .servicos-content .btn-config .btn-conhecer{
     margin: 20px 0px 0px 550px;
     cursor: pointer;
 }
+body main .convenios-container{
+    height: 800px;
+    background: #ffffff;
+}
+body main .convenios-container .convenios-content{
+    width: 1200px;
+    margin: 0 auto;
+    display: table;
 
+}
+body main .convenios-container .convenios-content .convenio-items{
+    height: 500px;
+    width: 900px;
+    margin: 0px 300px;
 
+}
+body main .convenios-container .convenios-content h2{
+    color:#2F7DBA;
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
+    margin: 40px 0px 20px 0px;
 
+}
+body main .convenios-container .convenios-content .accordion{
+    height: 50px;
+    background: transparent;
+    border-radius: 2px;
+    border:none;
+    text-align: left;
+    cursor: pointer;
+    border: 1px solid #D3D3D3;
+    padding: 18px;
+    width: 100%;
+    outline: none;
+    transition: 0.4s;
+}
 
+body main .convenios-container .convenios-content .button-text{
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+    color:#373f45;
+}
 
-
-
-
+body main .convenios-container .convenios-content .convenio-panel {
+    border: 1px solid #D3D3D3;
+    display: none;
+    overflow: hidden;
+}
+body main .convenios-container .convenios-content .convenio-panel .convenio-texto{
+    color:#373f45;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.convenio-links {
+    text-decoration: none;
+    color: #007bff;
+}
+body main .convenios-container .convenios-content .convenio-items .title-nossos-convenios{
+      color:#2F7DBA;
+      text-align: center;
+      font-weight: 800;
+      font-size: 38px;
+  }
+body main .convenios-container .convenios-content .convenio-items .convenios-imgs{
+    width: 1200px;
+    display: table;
+    margin: 0 auto;
+}
+body main .convenios-container .convenios-content .convenio-items .convenios-imgs img {
+    width: 180px;
+    float: left;
+    margin-top: 10px;
+}
+#btn-todos-convenios{
+    border-radius: 20px;
+    color: #ffffff;
+    background: #2F7DBA;
+    width: 230px;
+    height: 40px;
+    border: none;
+    transition: linear 0.2s;
+    margin: 20px 0px 0px 300px;
+    cursor: pointer;
+}
+#btn-todos-convenios:hover{
+    background: #28A58A;
+}
 
 footer{
     background: #2F7DBA;
